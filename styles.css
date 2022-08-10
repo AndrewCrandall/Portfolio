@@ -394,3 +394,17 @@
 }
 
 
+
+
+@media (maxWidth: 991px){
+	.maxWidth{
+		padding: 0 50px;
+	}
+
+	.navbar .menu{
+		position: fixed;
+		height: 100vh;
+		width100%
+	}
+}
+
