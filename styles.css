@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* Nav Bar Style */
+
+.navbar{
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	background: #49B7E9;
+	font-family: 'Ubuntu', sans-serif;
+	transition: all 0.3s ease;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+.maxWidth{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+.navbar .maxWidth{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar	.menu li{
+	list-style: none;
+	display: inline-block;
+
+}
+.navbar	.menu li a{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+	color: black ;
+}
+
+.menuBtn{
+	color: black;
+}
+
+
+/* Home Section Style */
+
+
+.home{
+	display: flex;
+	background-color: black;
+	height: 100vh;
+	color: #fff;
+	min-height: 500px;
+	font-family: Ubuntu, sans-serif;
+}
+
+.home .maxWidth{
+	margin-left: 200px;
+
+}
+
+.home .homeContent .text1{
+	font-size: 30px;
+}
+
+.home .homeContent .text2{
+	font-size: 40px;
+	font-weight: 600;
+	margin-left: 2px;
+	
+}
+
+.home .homeContent .text3{
+	font-size: 26px;
+	font-weight: 200;
+	margin-left: 2px;
+	
+}
+
+.home .maxWidth .socialMedia{
+	padding-top: 30px;
+}
+
+.home .socialMedia{
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px;
+	border-radius: 15px;
+
+}
+
+.home .socialMedia li a{
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+}
+
+.home .socialMedia li img{
+	border-radius: 50px;
+}
+
+
+
+/* About Section Syle */
+
+.about{
+	font-family: 'Poppins', sans-serif;
+}
+
+.about .title{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 15px;
+
+
+	border-bottom: solid;
+	border-width: 7px;
+	border-color: #49B7E9;
+
+
+}
+.about .aboutContent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.about .aboutContent .columnLeft{
+	width: 45%;
+}
+
+.about .aboutContent .columnLeft img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.about .aboutContent .columnRight{
+	width: 55%;
+}
+
+.about .aboutContent .columnRight .text{
+	font-size: 25px;
+	font-weight: 600px;
+	margin-bottom: 10px;
+
+}
+
+.about .aboutContent .columnRight p {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.about .aboutContent .columnRight button {
+	display: inline-block;
+	background-color: #49B7E9;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 15px;
+	padding: 1px 30px;
+	border-style: solid;
+	border-width: 2.5px;
+	border-color: black;
+	transition: all .3s ease;
+	margin-left: 30%;
+}
+
+.about .aboutContent .columnRight button:hover {
+	color: #49B7E9;
+	background: none;
+	font-weight: 500;
+	pointer-events: click;
+
+}
+
+
+/* Skills Section Style */
+
+.skills{
+		font-family: 'Poppins', sans-serif;
+}
+
+.skills .title2{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 15px;
+
+
+	border-bottom: solid;
+	border-width: 7px;
+	border-color: #49B7E9;
+}
+
+.skills .skillsContent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 35px;
+}
+
+.skills .skillsContent .columnLeft2{
+	width: 50%;
+	background-color: #fff;
+}
+
+.skills  .skillsContent .columnLeft2 img{
+	height: 150px;
+	width: 30%;
+	object-fit: cover;
+	padding: 20px;
+}
+
+
+.skills .skillsContent .columnRight2{
+	width: 50%;
+}
+
+
+.skills .skillsContent .columnRight2 ul{
+	list-style-type: square;
+	font-size: 25px;
+	text-align: justify;
+	padding-left: 50px;
+	font-family: 'Ubuntu' sans-serif;
+}
+
+.skills .skillsContent .columnRight2 ul li{
+	padding: 15px;
+
+}
+
+
+
+/* Skills Section Style */
+
+
+
+
+.projects {
+		font-family: 'Poppins', sans-serif;
+}
+
+.projects .title4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 15px;
+
+
+	border-bottom: solid;
+	border-width: 7px;
+	border-color: #49B7E9;
+}
+
+.projects .projectContent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 35px;
+}
+
+.projects .projectContent .files {
+	margin-left: 10%;
+}
+
+.projects .projectContent button{
+	display: inline-block;
+	background-color: #49B7E9;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 10px;
+	padding: 1px 30px;
+	border-style: solid;
+	border-width: 2.5px;
+	border-color: black;
+	transition: all .3s ease;
+
+	padding: 5px;
+	margin: 25px;
+}
+
+.projects .projectContent button:hover {
+	color: #49B7E9;
+	background: none;
+	font-weight: 500;
+	pointer-events: click;
+
+}
+
+
+.projects .projectContent .text{
+	font-size: 18px;
+
+}
+
+
+/* Contact Section Style */
+
+.contact{
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+}
+
+.contact .title3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 100;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	color: #fff;
+	
+
+	border-bottom: solid;
+	border-width: 7px;
+	border-color: #fff;
+}
+
+
+.contact .title3 span {
+	color: #49B7E9;
+}
+
+.contact .contactContent{
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	padding-top: 55px;
+	
+
+}
+
+.contact .contactContent .columnTop{
+	height: 100px;
+	text-align: center;
+
+}
+
+.contact .contactContent .columnTop .email{
+	font-size: 25px;
+	color: #fff;
+}
+
+.contact .contactContent .columnBottom{
+	width: 50%;
+	margin-left: 29%;
+	padding-bottom: 50px;
+
+}
+
+.contact .contactContent .columnBottom a{
+	padding: 15px;
+	align-items: center;
+
+}
+.contact .contactContent .columnBottom a img{
+	border-radius: 70px;
+}
+
+
