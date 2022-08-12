@@ -72,6 +72,10 @@
 	display: flex;
 	}
 
+	.navbar .logo a{
+		padding-bottom: 20px;
+	}
+
 }
 
 
