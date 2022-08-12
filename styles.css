@@ -12,7 +12,7 @@
 
 /* Nav Bar Style */
 .navbar{
-
+	display: none;
 	
 
 	padding: 15px;
@@ -27,7 +27,7 @@
 }
 
 .maxWidth{
-	max-width: 1300px;
+	max-width: 390px;
 	padding: 0 80px;
 	margin: auto;
 }
