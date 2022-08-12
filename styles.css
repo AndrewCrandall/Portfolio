@@ -403,6 +403,9 @@
 		padding: 0 60px;
 	}
 
+	.home .maxWidth{
+		margin-left: 0px;
+	}
 
 
 }
