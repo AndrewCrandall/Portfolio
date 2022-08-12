@@ -395,10 +395,7 @@
 
 
 
-
-
-
-@media (max-width: 390px){
+@media screen and (max-width: 390px){
 	.navbar{
 		display: none;
 	}
