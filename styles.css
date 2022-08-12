@@ -22,6 +22,8 @@
 	border-style: solid;
 	border-width: 5px;
 	border-color: black;
+
+	display: none;
 }
 
 .maxWidth{
@@ -61,6 +63,23 @@
 .menuBtn{
 	color: black;
 }
+
+
+
+
+
+@media 
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Home Section Style */
@@ -396,21 +415,5 @@
 
 
 
-@media only screen and (min-width: 990px){
 
-
-	.maxWidth{
-		padding: 0 60px;
-	}
-
-	.home .maxWidth{
-		margin-left: 0px;
-	}
-
-	.navbar{
-		display: none;
-	}
-
-
-}
 
