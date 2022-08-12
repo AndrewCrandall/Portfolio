@@ -407,6 +407,10 @@
 		margin-left: 0px;
 	}
 
+	.navbar{
+		display: none;
+	}
+
 
 }
 
