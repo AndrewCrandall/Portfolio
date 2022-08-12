@@ -13,6 +13,62 @@
 /* Nav Bar Style */
 
 .navbar{
+
+}
+
+.maxWidth{
+
+}
+
+.navbar .maxWidth{
+
+}
+
+.navbar .logo a{
+
+}
+.navbar	.menu li{
+
+
+}
+.navbar	.menu li a{
+
+}
+
+.navbar .menu li a:hover{
+
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+
+	.navbar{
+	display: flex;
+	}
+
+	.navbar .logo a{
+		padding-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.navbar{
 	padding: 15px;
 	position: fixed;
 	width: 100%;
@@ -58,25 +114,6 @@
 	color: black ;
 }
 
-.menuBtn{
-	color: black;
-}
-
-
-
-
-
-@media only screen and (min-width: 768px){
-
-	.navbar{
-	display: flex;
-	}
-
-	.navbar .logo a{
-		padding-bottom: 20px;
-	}
-
-}
 
 
 
@@ -90,7 +127,8 @@
 
 
 
-/* 
+
+
 
 
 .home{
