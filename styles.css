@@ -396,7 +396,7 @@
 
 
 
-@media only screen and (maxWidth: 990px){
+@media only screen and (min-width: 990px){
 
 
 	.maxWidth{
