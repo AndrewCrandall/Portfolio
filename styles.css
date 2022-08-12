@@ -423,6 +423,27 @@
 	.maxWidth{
 		max-width: 390px;
 		padding: 0 40px;}
+
+
+
+
+	.home .homeContent .text1{
+		font-size: 40px;
+	}
+
+	.home .homeContent .text2{
+		font-size: 50px;
+		font-weight: 600;
+		margin-left: 2px;
+		
+	}
+
+	.home .homeContent .text3{
+		font-size: 36px;
+		font-weight: 200;
+		margin-left: 2px;
+		
+	}
 }
 
 
