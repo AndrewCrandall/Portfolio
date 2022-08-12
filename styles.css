@@ -11,10 +11,8 @@
 }
 
 /* Nav Bar Style */
-.navbar{
-	display: none;
-	
 
+.navbar{
 	padding: 15px;
 	position: fixed;
 	width: 100%;
@@ -27,7 +25,7 @@
 }
 
 .maxWidth{
-	max-width: 390px;
+	max-width: 1300px;
 	padding: 0 80px;
 	margin: auto;
 }
@@ -60,88 +58,12 @@
 	color: black ;
 }
 
-@media only screen and (min-width: 768px){
-
-	.navbar{
-		display: all;
-	}
+.menuBtn{
+	color: black;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.navbar{
-	padding: 15px;
-	position: fixed;
-	width: 100%;
-	background: #49B7E9;
-	font-family: 'Ubuntu', sans-serif;
-	transition: all 0.3s ease;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
-
-	display: none;
-}
-
-.maxWidth{
-	max-width: 390px;
-	padding: 0 80px;
-	margin: auto;
-}
-
-.navbar .maxWidth{
-	align-items: center;
-	justify-content: space-between;
-}
-
-.navbar .logo a{
-	color: #fff;
-	font-size: 35px;
-	font-weight: 600;
-}
-.navbar	.menu li{
-	list-style: none;
-
-}
-.navbar	.menu li a{
-	color: #fff;
-	font-size: 24px;
-	font-weight: 500;
-	margin-left: 25px;
-	transition: color 0.3s ease;
-}
-
-.navbar .menu li a:hover{
-	color: black ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Home Section Style */
 
 
 .home{
@@ -200,6 +122,7 @@
 
 
 
+/* About Section Syle */
 
 .about{
 	font-family: 'Poppins', sans-serif;
@@ -278,7 +201,7 @@
 }
 
 
-
+/* Skills Section Style */
 
 .skills{
 		font-family: 'Poppins', sans-serif;
@@ -339,6 +262,7 @@
 
 
 
+/* Skills Section Style */
 
 
 
@@ -404,7 +328,7 @@
 }
 
 
-
+/* Contact Section Style */
 
 .contact{
 	font-family: 'Poppins', sans-serif;
@@ -468,9 +392,5 @@
 .contact .contactContent .columnBottom a img{
 	border-radius: 70px;
 }
-
-
-
-*/
 
 
