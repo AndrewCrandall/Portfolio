@@ -13,10 +13,12 @@
 /* Nav Bar Style */
 
 .navbar{
+	display: none;
 
 }
 
 .maxWidth{
+	width: 100%;
 
 }
 
