@@ -14,6 +14,15 @@
 
 .navbar{
 	display: none;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+
+	.navbar{
+	display: flex;
 
 	padding: 15px;
 	position: fixed;
@@ -25,7 +34,14 @@
 	border-width: 5px;
 	border-color: black;
 
-}
+	}
+
+	.navbar .logo a{
+		padding-bottom: 20px;
+	}
+
+
+
 
 .maxWidth{
 	width: 100%;
@@ -60,17 +76,6 @@
 }
 
 
-
-
-@media only screen and (min-width: 768px){
-
-	.navbar{
-	display: flex;
-	}
-
-	.navbar .logo a{
-		padding-bottom: 20px;
-	}
 
 }
 
