@@ -13,7 +13,6 @@
 /* Nav Bar Style */
 
 .navbar{
-	display: none;
 	padding: 15px;
 	position: fixed;
 	width: 100%;
@@ -405,6 +404,11 @@
 	max-width: 390px;
 	padding: 0 40px;
 	margin: auto;
+}
+
+
+.projects{
+	display: none;
 }
 
 }
