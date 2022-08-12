@@ -396,34 +396,12 @@
 
 
 
-@media (maxWidth: 991px){
+@media (maxWidth: 990px){
+
+
 	.maxWidth{
-		padding: 0 50px;
+		padding: 0 60px;
 	}
-
-	.navbar .menu{
-		position: fixed;
-		height: 100vh;
-		width100%
-		top: 0;
-		left: 0;
-	}
-.home .homeContent .text1{
-	font-size: 30px;
-}
-
-.home .homeContent .text2{
-	font-size: 35px;
-	font-weight: 600;
-	margin-left: 2px;
-	
-}
-
-.home .homeContent .text3{
-	font-size: 20px;
-
-	
-}
 
 
 
