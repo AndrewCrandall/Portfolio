@@ -118,6 +118,8 @@
 
 .home .socialMedia li img{
 	border-radius: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 
@@ -446,7 +448,16 @@
 
 @media screen and (max-width: 768px){
 	.navbar	li a{
-		font-size: 30px;
+	font-size: 24px;
+	font-weight: 500;
+	}
+
+	.navbar .maxWidth{
+		justify-content: safe left;
+	}
+
+	.navbar .logo a{
+		display: none;
 	}
 
 	.maxWidth{
@@ -458,15 +469,41 @@
 		height: 800px;
 	}
 
+
+
+
 	.home .maxWidth{
-		margin-left: 25px;
+		margin-left: 100px;
+
+	}
+
+	.home .homeContent .text1{
+		width: 150px;
+		font-size: 28px;
+	}
+
+	.home .homeContent .text2{
+		font-size: 40px;
+		font-weight: 600;
+		margin-left: 2px;
+		
 	}
 
 	.home .homeContent .text3{
 		font-size: 20px;
 		font-weight: 200;
-		margin-left: 2px;
+		display: none;
 		
+	}
+
+
+
+
+	.home .socialMedia li img{
+
+		width: 70px;
+		height: 70px;
+
 	}
 
 
@@ -478,7 +515,7 @@
 	.home .socialMedia li a{
 			height: 75px;
 			width: 75px;
-			padding: 20px;
+			padding: 10px;
 	}
 
 }
@@ -496,5 +533,12 @@
 	margin-left: 100px;
 
 }
+
+	.home .socialMedia li a{
+			height: 85px;
+			width: 85px;
+			padding: 15px;
+	}
+
 
 
