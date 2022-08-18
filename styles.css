@@ -191,7 +191,7 @@
 
 
 
-@media screen and (max-width: 393px){
+@media screen and (max-width: 415px){
 
 .navbar .logo a{
 	display: none;
@@ -205,7 +205,7 @@
 
 
 .maxWidth{
-	max-width: 393px;
+	max-width: 415px;
 	padding: 0 0;
 	}
 
@@ -235,8 +235,8 @@
 
 .home .socialMedia img{
 	margin: auto;
-	height: 50px;
-	width: 50px;
+	height: 85px;
+	width: 85px;
 }
 
 
