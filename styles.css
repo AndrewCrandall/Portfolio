@@ -203,11 +203,6 @@
 	margin-left: 5px;
 }
 
-.navbar{
-
-}
-
-
 
 .maxWidth{
 	max-width: 393px;
@@ -240,8 +235,8 @@
 
 .home .socialMedia img{
 	margin: auto;
-	height: 75px;
-	width: 75px;
+	height: 50px;
+	width: 50px;
 }
 
 
