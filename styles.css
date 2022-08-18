@@ -249,6 +249,8 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding-top: 35px;
+	margin: auto;
+	margin-right: 2%;
 }
 
 .projects .projectContent .files {
@@ -281,7 +283,9 @@
 
 .projects .projectContent .text{
 	font-size: 18px;
-
+	width: 90%;
+	text-align: justify;
+	margin: 5px;
 }
 
 
@@ -531,6 +535,12 @@
 
 }
 
+
+.projects .projectContent .text{
+	font-size: 16px;
+
+	margin: auto;
+}
 
 
 
