@@ -219,11 +219,37 @@
 }
 
 .home .homeContent{
-	text-align: center;
+	text-align: left;
 	padding-top: 250px;
 	margin: auto;
 
 }
+
+
+
+.home .homeContent .text1{
+	font-size: 20px;
+	margin-left: 17px;
+
+}
+
+.home .homeContent .text2{
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 16px;
+	
+
+}
+
+.home .homeContent .text3{
+	font-size: 23px;
+	font-weight: 200;
+	margin-left: 20px;
+	
+}
+
+
+
 
 .home .socialMedia {
 	display: flex;
@@ -235,8 +261,8 @@
 
 .home .socialMedia img{
 	margin: auto;
-	height: 85px;
-	width: 85px;
+	height: 100px;
+	width: 100px;
 }
 
 
