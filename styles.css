@@ -26,20 +26,26 @@
 
 .maxWidth{
 	max-width: 1300px;
-	padding: 0 80px;
+	padding: 0 30px;
 	margin: auto;
 }
 
 .navbar .maxWidth{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	
 }
 
 .navbar .logo a{
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
+}
+
+.navbar .menu{
+
+	margin: auto;
+	margin-right: 5px;
 }
 .navbar	.menu li{
 	list-style: none;
@@ -58,9 +64,9 @@
 	color: black ;
 }
 
-.menuBtn{
-	color: black;
-}
+
+
+
 
 
 /* Home Section Style */
@@ -69,19 +75,24 @@
 .home{
 	display: flex;
 	background-color: black;
-	height: 100vh;
+	min-height: 100vh;
 	color: #fff;
-	min-height: 500px;
+	
 	font-family: Ubuntu, sans-serif;
+
 }
 
 .home .maxWidth{
-	margin-left: 200px;
+	margin-left: 100px;
 
 }
 
+
+
 .home .homeContent .text1{
 	font-size: 30px;
+	min-width: 90%;
+
 }
 
 .home .homeContent .text2{
@@ -89,6 +100,7 @@
 	font-weight: 600;
 	margin-left: 2px;
 	
+
 }
 
 .home .homeContent .text3{
@@ -98,447 +110,90 @@
 	
 }
 
-.home .maxWidth .socialMedia{
-	padding-top: 30px;
-}
-
 .home .socialMedia{
-	display: inline-block;
-	list-style-type: none;
 	padding: 20px;
-	border-radius: 15px;
-
-}
-
-.home .socialMedia li a{
-	height: 100px;
-	width: 100px;
-	padding: 20px;
-}
-
-.home .socialMedia li img{
-	border-radius: 50px;
-	height: 100px;
-	width: 100px;
-}
-
-
-
-/* About Section Syle */
-
-.about{
-	font-family: 'Poppins', sans-serif;
-}
-
-.about .title{
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	margin-top: 100px;
-	font-size: 45px;
-	font-weight: 400;
-	padding-bottom: 15px;
-
-
-	border-bottom: solid;
-	border-width: 7px;
-	border-color: #49B7E9;
+	margin: auto;
 
 
 }
-.about .aboutContent{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
 
-
-.about .aboutContent .columnLeft{
-	width: 45%;
-}
-
-.about .aboutContent .columnLeft img{
-	height: 400px;
-	width: 400px;
-	object-fit: cover;
-	border-radius: 5px;
-}
-
-.about .aboutContent .columnRight{
-	width: 55%;
-}
-
-.about .aboutContent .columnRight .text{
-	font-size: 25px;
-	font-weight: 600px;
-	margin-bottom: 10px;
-
-}
-
-.about .aboutContent .columnRight p {
-	font-size: 20px;
-	text-align: justify;
-}
-
-.about .aboutContent .columnRight button {
-	display: inline-block;
-	background-color: #49B7E9;
-	color: #fff;
-	font-size: 25px;
-	margin-top: 15px;
-	padding: 1px 30px;
-	border-style: solid;
-	border-width: 2.5px;
-	border-color: black;
-	transition: all .3s ease;
-	margin-left: 30%;
-}
-
-.about .aboutContent .columnRight button:hover {
-	color: #49B7E9;
-	background: none;
-	font-weight: 500;
-	pointer-events: click;
-
-}
-
-
-/* Skills Section Style */
-
-.skills{
-		font-family: 'Poppins', sans-serif;
-}
-
-.skills .title2{
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	margin-top: 100px;
-	font-size: 45px;
-	font-weight: 400;
-	padding-bottom: 15px;
-
-
-	border-bottom: solid;
-	border-width: 7px;
-	border-color: #49B7E9;
-}
-
-.skills .skillsContent{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding-top: 35px;
-}
-
-.skills .skillsContent .columnLeft2{
-	width: 50%;
-	background-color: #fff;
-}
-
-.skills  .skillsContent .columnLeft2 img{
+.home  .socialMedia img{
 	height: 150px;
-	width: 30%;
-	object-fit: cover;
+	width: 150px;
 	padding: 20px;
-}
-
-
-.skills .skillsContent .columnRight2{
-	width: 50%;
-}
-
-
-.skills .skillsContent .columnRight2 ul{
-	list-style-type: square;
-	font-size: 25px;
-	text-align: justify;
-	padding-left: 50px;
-	font-family: 'Ubuntu' sans-serif;
-}
-
-.skills .skillsContent .columnRight2 ul li{
-	padding: 15px;
-
+	border-radius: 100px;
 }
 
 
 
-/* Skills Section Style */
 
 
 
 
-.projects {
-		font-family: 'Poppins', sans-serif;
+
+@media screen and (max-width: 790px){
+
+.navbar .logo a{
+	display: none;
+}
+.navbar	.menu{
+	margin: auto;
 }
 
-.projects .title4{
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	margin-top: 100px;
-	font-size: 45px;
-	font-weight: 400;
-	padding-bottom: 15px;
-
-
-	border-bottom: solid;
-	border-width: 7px;
-	border-color: #49B7E9;
+.navbar .maxWidth{
+	padding: 0 0;
 }
 
-.projects .projectContent{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding-top: 35px;
-}
-
-.projects .projectContent .files {
-	margin-left: 10%;
-}
-
-.projects .projectContent button{
-	display: inline-block;
-	background-color: #49B7E9;
-	color: #fff;
-	font-size: 25px;
-	margin-top: 10px;
-	padding: 1px 30px;
-	border-style: solid;
-	border-width: 2.5px;
-	border-color: black;
-	transition: all .3s ease;
-
-	padding: 5px;
-	margin: 25px;
-}
-
-.projects .projectContent button:hover {
-	color: #49B7E9;
-	background: none;
-	font-weight: 500;
-	pointer-events: click;
-
-}
-
-
-.projects .projectContent .text{
-	font-size: 18px;
-
-}
-
-
-/* Contact Section Style */
-
-.contact{
-	font-family: 'Poppins', sans-serif;
-	background-color: black;
-}
-
-.contact .title3 {
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	margin-top: 100px;
-	font-size: 45px;
-	font-weight: 100;
-	padding-top: 15px;
-	padding-bottom: 25px;
-	color: #fff;
-	
-
-	border-bottom: solid;
-	border-width: 7px;
-	border-color: #fff;
-}
-
-
-.contact .title3 span {
-	color: #49B7E9;
-}
-
-.contact .contactContent{
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-top: 25px;
-	padding-top: 55px;
-	
-
-}
-
-.contact .contactContent .columnTop{
-	height: 100px;
-	text-align: center;
-
-}
-
-.contact .contactContent .columnTop .email{
-	font-size: 25px;
-	color: #fff;
-}
-
-.contact .contactContent .columnBottom{
-	width: 50%;
-	margin-left: 29%;
-	padding-bottom: 50px;
-
-}
-
-.contact .contactContent .columnBottom a{
-	padding: 15px;
-	align-items: center;
-
-}
-.contact .contactContent .columnBottom a img{
-	border-radius: 70px;
-}
-
-
-
-@media screen and (max-width: 391px){
-	.navbar{
-		display: none;
+.maxWidth{
+	max-width: 790px;
 	}
 
-	.maxWidth{
-	max-width: 390px;
-	padding: 0 40px;
+
+
+
+.home{
+	display: block;
+	margin: auto;
+}
+
+.home .maxWidth{
 	margin: auto;
 }
 
 
-.projects{
-	display: none;
-}
+.home .homeContent{
+	text-align: center;
+	transform: translateY(250px);
+	margin: auto;
 
 }
 
+.home .socialMedia {
+	display: flex;
+
+	margin-top: 350px;
+	width: 75%;
 
 
-@media screen and (max-width: 390px){
-	.navbar	{
-		display: none;
-	}
+}
 
-	.maxWidth{
-		max-width: 390px;
-		padding: 0 40px;}
+.home .socialMedia img{
+	margin: auto;
 
-
-
-
-	.home .homeContent .text1{
-		font-size: 40px;
-	}
-
-	.home .homeContent .text2{
-		font-size: 50px;
-		
-	}
-
-	.home .homeContent .text3{
-		font-size: 36px;
-	
-	}
+	height: 135px;
+	width: 135px;
 }
 
 
 
-@media screen and (max-width: 768px){
-	.navbar	li a{
-	font-size: 24px;
-	font-weight: 500;
-	}
-
-	.navbar .maxWidth{
-		justify-content: safe left;
-	}
-
-	.navbar .logo a{
-		display: none;
-	}
-
-	.maxWidth{
-		max-width: 768px;
-		padding: 0 0 spx;}
-
-
-	.home{
-		height: 800px;
-	}
-
-
-
-
-	.home .maxWidth{
-		margin-left: 100px;
-
-	}
-
-	.home .homeContent .text1{
-		width: 150px;
-		font-size: 28px;
-	}
-
-	.home .homeContent .text2{
-		font-size: 40px;
-		font-weight: 600;
-		margin-left: 2px;
-		
-	}
-
-	.home .homeContent .text3{
-		font-size: 20px;
-		font-weight: 200;
-		display: none;
-		
-	}
-
-
-
-
-	.home .socialMedia li img{
-
-		width: 70px;
-		height: 70px;
-
-	}
-
-
-	.home .socialMedia{
-	display: block;
-
-}
-
-	.home .socialMedia li a{
-			height: 75px;
-			width: 75px;
-			padding: 10px;
-	}
 
 }
 
 
-@media screen and (max-width: 990px){
-	.maxWidth{
-		max-width: 990px;
-		padding: 0 30px;
-		margin: auto;
-	}
 
 
-	.home .maxWidth{
-	margin-left: 100px;
 
-}
 
-	.home .socialMedia li a{
-			height: 85px;
-			width: 85px;
-			padding: 15px;
-	}
 
 
 
