@@ -225,6 +225,65 @@
 }
 
 
+.projects {
+		font-family: 'Poppins', sans-serif;
+}
+
+.projects .title4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 15px;
+
+
+	border-bottom: solid;
+	border-width: 7px;
+	border-color: #49B7E9;
+}
+
+.projects .projectContent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 35px;
+}
+
+.projects .projectContent .files {
+	margin-left: 10%;
+}
+
+.projects .projectContent button{
+	display: inline-block;
+	background-color: #49B7E9;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 10px;
+	padding: 1px 30px;
+	border-style: solid;
+	border-width: 2.5px;
+	border-color: black;
+	transition: all .3s ease;
+	padding: 5px;
+	margin: 25px;
+}
+
+.projects .projectContent button:hover {
+	color: #49B7E9;
+	background: none;
+	font-weight: 500;
+	pointer-events: click;
+
+}
+
+
+.projects .projectContent .text{
+	font-size: 18px;
+
+}
+
 
 
 /* IPAD / SMALL WINDOW */
@@ -324,6 +383,11 @@
 .skills .skillsContent .columnRight2{
 	width: 100%;
 }
+
+
+
+
+
 
 
 
