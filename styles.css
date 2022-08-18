@@ -163,15 +163,14 @@
 
 .home .homeContent{
 	text-align: center;
-	transform: translateY(250px);
+	padding-top: 250px;
 	margin: auto;
 
 }
 
 .home .socialMedia {
 	display: flex;
-
-	margin-top: 350px;
+	margin-top: 200px;
 	width: 100%%;
 
 
