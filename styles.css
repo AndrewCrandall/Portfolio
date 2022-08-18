@@ -191,6 +191,68 @@
 
 
 
+@media screen and (max-width: 393px){
+
+.navbar .logo a{
+	display: none;
+}
+.navbar	.menu{
+	margin: auto;
+}
+
+.navbar	.menu li a{
+	font-size: 18px;
+	margin-left: 10px;
+
+}
+
+
+
+
+.maxWidth{
+	max-width: 393px;
+	padding: 0 0;
+	}
+
+
+
+
+.home{
+	display: block;
+	margin: auto;
+}
+
+.home .maxWidth{
+	margin: auto;
+}
+
+
+.home .homeContent{
+	text-align: center;
+	padding-top: 250px;
+	margin: auto;
+
+}
+
+.home .socialMedia {
+	display: flex;
+	margin-top: 200px;
+	width: 100%%;
+
+
+}
+
+.home .socialMedia img{
+	margin: auto;
+
+	height: 100px;
+	width: 100px;
+}
+
+
+}
+
+
 
 
 
