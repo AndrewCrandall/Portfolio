@@ -319,7 +319,7 @@
 }
 
 .contactContent form{
-	width: 40%;
+	
 	background-color: #333;
 	margin-left: auto;
 	margin-right: auto;
@@ -332,6 +332,8 @@
 	border-color:black;
 	margin-top: 35px;
 	margin-bottom: 35px;
+
+	width: 400px;
 
 }
 
@@ -419,15 +421,20 @@
 }
 .home .socialMedia {
 	display: flex;
-	margin-top: 200px;
-	width: 100%;
+	margin-top: 150px;
+	width: auto;
 	margin-bottom: 50px;
+	justify-content: space-between;
+	padding-right: 90px;
+	padding-left: 90px;
 }
 .home .socialMedia img{
 	margin: auto;
 	margin-bottom: 70px;
 	height: 135px;
 	width: 135px;
+
+
 }
 .about .aboutContent{
 	display: block;
@@ -489,7 +496,27 @@
 
 
 
+.contactContent{
+	display: block;
+	margin: auto;
+}
 
+.contactContent form{
+	float: none;
+}
+
+
+.contactContent  .columnBottom img{
+	display: block;
+	height: 150px;
+	width: 150px;
+	}
+
+
+.contactContent .columnBottom{
+	display: flex;
+	width: 100%;
+}
 
 
 
