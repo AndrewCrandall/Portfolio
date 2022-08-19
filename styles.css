@@ -403,6 +403,15 @@
 .navbar .maxWidth{
 	padding: 0 0;
 }
+.navbar	.menu li a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+
+
 .maxWidth{
 	max-width: 790px;
 	}
@@ -422,7 +431,6 @@
 	display: flex;
 	margin-top: 150px;
 	min-width: 100%;
-	background-color: pink;
 	margin-bottom: 50px;
 	justify-content: space-between;
 	padding-right: 90px;
@@ -431,8 +439,9 @@
 .home .socialMedia img{
 	margin: auto;
 	margin-bottom: 70px;
-	height: 125px;
-	width: 125px;
+	height: 115px;
+	width: 115px;
+	padding: 3px;
 
 
 }
