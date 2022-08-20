@@ -91,7 +91,7 @@
 }
 
 .home .socialMedia{
-	padding: 20px;
+	padding: 10px;
 	margin: auto;
 }
 
@@ -430,17 +430,17 @@
 .home .socialMedia {
 	display: flex;
 	margin-top: 150px;
-	min-width: 100%;
+	width: 100%;
 	margin-bottom: 50px;
 	justify-content: space-between;
-	padding-right: 90px;
-	padding-left: 90px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 .home .socialMedia img{
 	margin: auto;
 	margin-bottom: 70px;
-	height: 115px;
-	width: 115px;
+	height: 100px;
+	width: 100px;
 	padding: 7px;
 
 
@@ -584,6 +584,8 @@
 	margin-top: 100px;
 	width: 100%;
 	margin-bottom: 50px;
+	padding-right: auto;
+	padding-left: auto;
 	
 }
 .home .socialMedia img{
