@@ -433,8 +433,8 @@
 	width: 100%;
 	margin-bottom: 50px;
 	justify-content: space-between;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-left: auto;
+	padding-right: auto;
 }
 .home .socialMedia img{
 	margin: auto;
