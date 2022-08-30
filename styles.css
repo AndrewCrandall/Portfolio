@@ -130,6 +130,7 @@
 	width: 400px;
 	object-fit: cover;
 	border-radius: 5px;
+	padding: 10px;
 }
 .about .aboutContent .columnRight{
 	width: 50%;
